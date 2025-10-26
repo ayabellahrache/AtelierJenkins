@@ -15,6 +15,6 @@ class PersonTest {
     void testGetAge() {
         Person person = new Person("Joey", "Doe", LocalDate.parse("2013-01-12"));
         long age = person.getAge();
-        assertEquals(4, age);
+        assertEquals(12, age);
     }
 }
